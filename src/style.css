@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #395E66;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+section{
+  overflow: hidden;
+}
+
+#app {
+
+  background-color: #313638;
+  width: 100%;
+  margin: 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+element.style {
+  margin: 0.5em;
+}
+
+.buttonContent {
+  color: white;
+  text-transform: none;
+  background-color: "#fff";
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.15);
+  border: 0;
+}
+
+.buttonBlock {
+  display: block;
+  cursor: pointer;
+  padding: 0.8em 1.4em;
+  font-weight: 500;
+  font-size: .9rem;
+  transition: transform .2s ease-in-out;
+  background-color: #071117;
+  border-radius: 10px;
+}
+
+
+.TransformAnimation {
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: transform;
+}
+
+.TransformAnimation:hover {
+  transform: scale(1.1);
+}
+
+.expContent{
+  margin-top: 10%;
+  padding-left: 15%;
+  border-left: 2px solid grey;
+  position: relative; 
+}
+
+.expBox{
+  padding: 20px;
+  border: 1px solid #071117;
+  background-color: #071117;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.4s;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.expBox:hover{
+  box-shadow: 0px 3px 12px 0px #ccc;
+  border: 1px solid  transparent;
+}
+
+
+.expBox::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -19.5%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: #ffe400;
+  border-radius: 50%;
+}
