@@ -26,14 +26,14 @@
           <div class="row">
             <div class="col-xl-6 col-m-6">
               <h1 class="mt-5 mb-5 text-light text-bold" style="font-size:2vw" >Certifications</h1>
-              <ul  style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
+              <ul class="p-0" style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em; font-size:1vw">Oracle Java Certified Foundations Associate</li>
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em; font-size:1vw">Salesforce Process Automation Specialist</li>
               </ul>
             </div>
             <div class="col-xl-6 cold-m-6">
               <h1 class="mt-5 mb-5 text-light text-bold" style="font-size:2vw" >Competitions</h1>
-              <ul  style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
+              <ul class="p-0" style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em; font-size:1vw">Ninjavan Code Dojo '23'</li>
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em; font-size:1vw">SMU Code# '22, '23</li>
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em; font-size:1vw">Shopee Design Challenge 2023</li>
@@ -45,7 +45,7 @@
           <div class="row">
             <div class="col-12">
               <h1 class="mt-5 mb-5 text-light text-bold" style="font-size:2vw" >My Skills</h1>
-              <ul  style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
+              <ul class="p-0" style="max-width: 600px; width: 95%; margin: 0px auto; display: flex; flex-wrap: wrap; justify-content: center;">
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em;font-size:1vw">Java</li>
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em;font-size:1vw">Python</li>
                 <li class="buttonBlock buttonContent TransformAnimation" style="margin: 0.5em;font-size:1vw">JavaScript</li>
