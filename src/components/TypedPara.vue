@@ -14,8 +14,8 @@
 
             <p class="p-0 mb-5"> Aspiring Software Engineer</p>
 
-            <a href="github.com/JustinPansacola"><font-awesome-icon class="mx-2" icon="fa-brands fa-github" size="2xl" style="color: #ffffff;" /></a>
-            <a href="https://www.linkedin.com/in/justinpansacola/"><font-awesome-icon class="mx-2" :icon="['fab', 'linkedin']" size="2xl" style="color: #ffffff;" /></a>
+            <a href="github.com/JustinPansacola"><i class="fa-brands fa-github fa-2xl mx-3" style="color: #ffffff;"></i></a>
+            <a href="https://www.linkedin.com/in/justinpansacola/"><i class="mx-3 fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
         
         </div>
       </div>
